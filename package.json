@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lukew3/validate-json-resume-action#readme",
   "dependencies": {
+    "@actions/core": "^1.9.1",
     "resume-schema": "^1.0.0"
   }
 }
