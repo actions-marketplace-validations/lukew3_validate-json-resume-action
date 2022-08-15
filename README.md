@@ -6,5 +6,5 @@ Add the following step to your github action:
 ```
 - uses: lukew3/validate-json-resume-action@main
   with:
-    resume-path: path/to/resume.json
+    resume_path: path/to/resume.json
 ```

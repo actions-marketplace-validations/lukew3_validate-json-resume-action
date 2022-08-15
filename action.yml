@@ -5,7 +5,7 @@ branding:
   color: green
   icon: check-circle
 inputs:
-  resume-path:
+  resume_path:
     description: The path to the resume.json file.
     required: true
 runs:
