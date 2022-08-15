@@ -1,6 +1,8 @@
-var fs = require("fs");
-var resumeSchema = require("resume-schema");
-const resumePath = process.argv[2];
+const fs = require("fs");
+const resumeSchema = require("resume-schema");
+const core = require('@actions/core');
+
+const resumePath = core.getInput('resume-path');
 var resumeObject = JSON.parse(fs.readFileSync(resumePath, "utf8"));
 resumeSchema.validate(
   resumeObject,

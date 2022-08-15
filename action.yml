@@ -5,11 +5,9 @@ branding:
   color: "green"
   icon: "package"
 inputs:
-  resume_path:
+  resume-path:
     description: The path to the resume.json file.
     required: true
 runs:
   using: 'node16'
   main: 'index.js'
-  args:
-    - ${{ inputs.resume_path }}
