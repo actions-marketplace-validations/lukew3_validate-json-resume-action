@@ -1,0 +1,22 @@
+{
+  "name": "validate-json-resume-action",
+  "version": "1.0.0",
+  "description": "Github action to validate if a json resume is compliant to jsonresume standards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukew3/validate-json-resume-action.git"
+  },
+  "author": "Luke Weiler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukew3/validate-json-resume-action/issues"
+  },
+  "homepage": "https://github.com/lukew3/validate-json-resume-action#readme",
+  "dependencies": {
+    "resume-schema": "^1.0.0"
+  }
+}
