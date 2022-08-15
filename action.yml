@@ -2,12 +2,12 @@ name: Validate JSON Resume Action
 description: Validate a JSON resume.
 author: Luke Weiler
 branding:
-  color: "green"
-  icon: "package"
+  color: green
+  icon: check-circle
 inputs:
   resume-path:
     description: The path to the resume.json file.
     required: true
 runs:
-  using: 'node16'
-  main: 'index.js'
+  using: node16
+  main: index.js
