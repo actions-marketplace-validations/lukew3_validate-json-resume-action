@@ -9,11 +9,13 @@ resumeSchema.validate(
   function (err, report) {
     if (err) {
       console.error("The resume was invalid:", err);
+      core.setFailed(err);
       return;
     }
     console.log("Resume validated successfully:", report);
   },
   function (err) {
     console.error("The resume was invalid:", err);
+    core.setFailed(err);
   }
 );
